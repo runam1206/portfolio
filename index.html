@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="images/logo-icon.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">  
@@ -24,7 +22,7 @@
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-        <img src="images/logo-icon.png" alt="logo" id = "logo">
+        <a href="index.html"><img src="images/logo-icon.png" alt="logo" id = "logo"></a>
         <nav>
             <ul class="navi-link">
                 <li class="currentpage"><a href="index.html">Home</a></li>
@@ -35,12 +33,11 @@
             </ul>
         </nav>
     </header>
-    <!--main section has two parts: intro and gallery -->
-    <main class="homepage">
-        <div clss="introduction">
+    <main>
+        <div class="introduction">
         <!--intro part-->
         <h1 class="homepage-name">Runa Morioka</h1>
-        <h2 class="text-animation">    
+        <div class="text-animation">    
             <span class="initial-text-item">I am a   </span>  
             <div class="text-animation-div"> 
                 <ul class="text-animation-list"> 
@@ -49,7 +46,7 @@
                     <li class="text-item">Coffee Lover</li>  
                 </ul>
             </div>  
-        </h2>
+        </div>
         <p class="self-intro">I am a UX designer with background of <mark>finance and information system</mark>.<br> Currently a first-year master student <mark>at umich studying UX/HCI</mark>.
             <br> I am passionate about translating user's needs to the design across different cultures.</p>
         </div>
@@ -63,17 +60,19 @@
                 <a href="peopleplanet.html"><img src = "images/project-2.png" alt ="People Planet"/></a>
             </div>
         </div>
+        <div onclick="topFunction()" id="toTop"><img src="images/up-arrow.png" alt=""></div>
     </main>
     
-    <div onclick="topFunction()" id="toTop"><img src="images/up-arrow.png" alt=" "></div>
+    
+
+    <footer>
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/morinamusic/" aria-label="myinsta"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/runa-morioka-701a28129/" aria-label="mylinkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <div class="container">
+            <span class="copyright">Copyright &copy; 2020 - Runa Morioka</span>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div class="container">
-        <span class="copy-right">Copyright &copy; 2020 - Runa Morioka</span>
-    </div>
-    <ul class="social-icons">
-        <li><a href="https://www.instagram.com/morinamusic/" aria-label="myinsta"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/runa-morioka-701a28129/" aria-label="mylinkedin"><i class="fa fa-linkedin"></i></a></li>
-    </ul>
-</footer>
 </html>
