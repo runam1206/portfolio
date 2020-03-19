@@ -150,6 +150,7 @@ mark{
   }
 
 .text-animation-list { 
+    -webkit-animation:text-animation-list 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; 
     animation: text-animation-list 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; 
     text-align: center;
 }
@@ -609,7 +610,7 @@ html{
         grid-column-gap: 0px;
         grid-row-gap: 10px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: auto;
       }
       
       .img1{
