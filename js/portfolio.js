@@ -1,3 +1,4 @@
+//modal box and slideshow cited from https://www.w3schools.com/howto/howto_js_lightbox.asp
 function openModal() {
     document.getElementById("myModal").style.display = "block";
   }
@@ -28,6 +29,7 @@ function openModal() {
     }
   }
 
+//create button to top cited from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 //Get the button
 var mybutton = document.getElementById("toTop");
 
